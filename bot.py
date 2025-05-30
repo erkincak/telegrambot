@@ -23,7 +23,7 @@ async def fact(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main() -> None:
     
-    application = ApplicationBuilder().token('7977188537:AAFDtd_5XV8T8rQIQeRai264QuLaJHxLNXw').build()
+    application = ApplicationBuilder().token('7977188537:AAFDtd_5XV8T8rQIQeRai264QuLaLNXw').build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("about", about))
     application.add_handler(CommandHandler("help", help_command))
